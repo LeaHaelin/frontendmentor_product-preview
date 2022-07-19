@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 375px;
+    height: 100vh;
+    padding-top: 28px;
+    background-color: #F2EAE2;
+}
+
+.product{
+    max-width: 343px;
+    height: 611px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.product__image{
+    width: 343px;
+    height: 240px;
+    background-image: url(./images/image-product-mobile.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product__text{
+    background-color: #ffffff;
+    padding: 24px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.product__category{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #6C7289;
+}
+
+.product__title{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin-top: 12px;
+    color: #1C232B;
+}
+
+.product__phrase{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 16px;
+    color: #6C7289;
+}
+
+.product__price{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.product__price-discounted{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-right: 19px;
+    color: #3D8168;
+}
+
+.product__price-original{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration-line: line-through;
+    color: #6C7289;
+}
+
+.product__add-btn{
+    width: 295px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3D8168;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    line-height: 17px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.product__add-icon{
+    margin-right: 11.61px;
+}
+
+.attribution{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 40px;
+    color: #6C7289;
+}
+
+.att-a{
+    text-decoration: none;
+    color: #3D8168;
+}
